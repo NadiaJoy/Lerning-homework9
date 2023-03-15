@@ -9,10 +9,11 @@ public class Insurance {
             result = 100;
         } else if (age >= 18 && age <= 29) {
             result = 120;
-        } else if (age >= 66 && age <= 79)
+        } else if (age >= 66 && age <= 79) {
             result = 130;
-        else
+        } else {
             result = 0;
+        }
         return result;
     }
 }
